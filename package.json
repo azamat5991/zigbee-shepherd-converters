@@ -1,0 +1,45 @@
+{
+  "name": "zigbee-shepherd-converters",
+  "version": "10.2.5",
+  "description": "Collection of device converters to be used with zigbee-shepherd",
+  "main": "index.js",
+  "files": [
+    "/index.js",
+    "/converters",
+    "/devices.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koenkk/zigbee-shepherd-converters.git"
+  },
+  "keywords": [
+    "xiaomi",
+    "tradfri",
+    "hue",
+    "wemo",
+    "zigbee",
+    "zigbee-shepherd"
+  ],
+  "scripts": {
+    "verify": "node test/verify.js",
+    "eslint": "node_modules/.bin/eslint .",
+    "test": "mocha --recursive"
+  },
+  "author": "Koen Kanters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Koenkk/zigbee-shepherd-converters/issues"
+  },
+  "homepage": "https://github.com/Koenkk/zigbee-shepherd-converters",
+  "dependencies": {
+    "zigbee-herdsman": "^0.4.0",
+    "debounce": "*",
+    "debug": "3.2.6",
+    "chai": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-google": "*",
+    "mocha": "*"
+  }
+}
